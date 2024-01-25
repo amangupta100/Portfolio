@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './component/About';
+import Hero from './component/Hero';
+import Navbar from './component/Navbar';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Project from './component/Project';
+import Contact from './component/Contact';
+import StarsCanvas from './component/styles/Stars';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Navbar/>
+     <Hero/>
+     <About/>
+     <Project/>
+     <div className="relative z-0">
+     <Contact/>
+     <StarsCanvas/>
+     </div>
     </div>
   );
 }
