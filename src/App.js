@@ -8,9 +8,10 @@ import Contact from './component/Contact';
 import StarsCanvas from './component/styles/Stars';
 
 
+
 function App() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
      <Navbar/>
      <Hero/>
      <About/>

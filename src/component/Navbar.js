@@ -7,7 +7,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 export default function Navbar(props) {
   const [vis,setVis] = useState(null)
   return (
-    <div className='w-full h-[80px] flex fixed px-[6vw] tb:h-[70px] lm:h-[60px] z-50 overflow-x-hidden justify-between items-center bg-transparent backdrop-blur-[6px] '>
+    <div className='w-full h-[76px] flex fixed px-[6vw] tb:h-[70px] lm:h-[65px] z-50 overflow-x-hidden justify-between items-center bg-transparent backdrop-blur-[6px] '>
       <div className="flex items-center gap-5">
         <img src={Logo} className='w-10 h-10 rounded-full tb:w-11 tb:h-11' alt="bvv" />
         <a className=' text-[1.7vw]  font-semibold tb:text-[2.5vw] lm:text-[4vw]' href="#">Aman Gupta</a>
