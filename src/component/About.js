@@ -18,11 +18,11 @@ export default function About() {
     easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
   }
   return (
-    <div className='bg-[rgb(5,8,22)] lm:min-h-[245vh] w-full min-h-[125vh] tb:min-h-[160vh] flex items-center justify-center'>
+    <div className='bg-[rgb(5,8,22)] overflow-x-hidden lm:min-h-[245vh] w-full min-h-[125vh] tb:min-h-[160vh] flex items-center justify-center'>
       <div className="w-[95%] h-[100vh] lm:h-[155vh] flex flex-col justify-center gap-20">
         <div className="flex flex-col w-[75%] tb:w-[90%] lm:w-[100vw] px-[15vh] tb:px-[6vh] lm:py-[5vw] lm:px-[5vw]">
         <h1 className='text-xl text-gray-400 font-medium'>INTRODUCTION</h1>
-        <h1 className='text-[5.5vw] font-extrabold'>Overview .</h1>
+        <h1 className='text-[5.5vw] font-extrabold lm:text-[5vw] '>Overview .</h1>
         <p className='text-xl text-white font-normal'>I am a passionate frontend developer who crafts visually stunning and user-friendly websites. With expertise in creating responsive designs that adapt seamlessly across devices, I bring websites to life with modern aesthetics and captivating animations. I love solving real-world problems and learning along the way. I have currently explored the field of Devops, Frontend and Backend tools and technologies</p>
         </div>
         

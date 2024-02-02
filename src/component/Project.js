@@ -44,7 +44,7 @@ export default function Project() {
     
   }
   return (
-    <div className='bg-[rgb(5,8,22)] flex items-center relative justify-center w-full min-h-[100vh]'>
+    <div className='bg-[rgb(5,8,22)] flex items-center relative justify-center w-full min-h-[100vh] overflow-x-hidden'>
       <div className="w-[95%] min-h-[98vh] flex flex-col px-[8vw] py-[15vh] p_maincont">
         <h1 className='text-[1.7vw] font-normal text-gray-400 lm:text-[4vw] '>My Work</h1>
         <h1 className='text-[5vw] font-extrabold lm:text-[7vw] '>Projects.</h1>
