@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="w-[3px] mx-[10px] tb:mx-[9px] h-[350px] bg-gradient-to-b from-violet-600 lm:rounded-full  rounded-full"></div>
       </div>
       <div >
-      <h1 className='text-[5vw] font-[700] lm:text-[8vw] bg-gradient-to-r from-blue-600 via-green-500 to-rgb(36,137,164) inline-block text-transparent bg-clip-text' id='name'> Hii, I'm Aman</h1>
+      <h1 className='text-[5vw] font-[700] lm:text-[8vw] bg-gradient-to-r from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text' id='name'> Hii, I'm Aman</h1>
         <p className='text-[1.8vw] font-[400] tb:text-[3vw] lm:text-[4.8vw] '>I , <label htmlFor="" className='text-[1.8vw] font-[400] tb:text-[3vw] lm:text-[4.8vw] inline-block'>
         <Typewriter
   options={{
