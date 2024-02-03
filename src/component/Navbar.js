@@ -9,7 +9,7 @@ export default function Navbar() {
   const [vis,setVis] = useState("none")
 
   return (
-    <div className='w-full h-[76px] flex fixed px-[6vw] tb:h-[70px] lm:h-[65px] z-50 justify-between items-center bg-transparent backdrop-blur-[4px] '>
+    <div className='w-full h-[76px] flex fixed px-[6vw] tb:h-[70px] lm:h-[65px] z-1 justify-between items-center bg-transparent backdrop-blur-[4px] '>
       <div className="flex items-center gap-5">
         <img src={Logo} className='w-10 h-10 rounded-full tb:w-11 tb:h-11' alt="bvv" />
         <Link to="/" className=' text-[1.7vw]  font-semibold tb:text-[2.5vw] lm:text-[4vw]'>Aman Gupta</Link>

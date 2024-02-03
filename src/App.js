@@ -1,25 +1,22 @@
 import './App.css';
 import About from './component/About';
+import ContactCombo from './component/ContactCombo';
 import Hero from './component/Hero';
-import {BrowserRouter} from 'react-router-dom'
 import Project from './component/Project';
-import Contact from './component/Contact';
-import StarsCanvas from './component/styles/Stars'
+import {Routes,Route} from "react-router-dom"
+import Skills from './component/Skills';
+
 
 function App() {
   return (
-    <div>
-   <BrowserRouter>
-     <Hero/>
-     <About/>
-     <Project/>
-     <div className="relative z-0">
-      <Contact/>
-     <StarsCanvas/>
-     </div>
-
-   </BrowserRouter>
-
+    <div className='overflow-x-hidden'>
+  
+      <Hero/>
+      <About/>
+      <Skills/>
+      <Project/>
+      <ContactCombo/>
+  
     </div>
   );
 }
