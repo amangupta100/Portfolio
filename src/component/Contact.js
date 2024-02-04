@@ -28,7 +28,7 @@ export default function Contact() {
           <button className='bg-[rgb(21,16,48)] my-[2vw] lm:w-[25vw] w-[8vw] h-[10vh] tb:w-[12vw] rounded-lg lm:my-[5vw] p-[1vw] text-xl font-medium'>Send</button>
          </div>
 
-         <motion.div className='w-[50%] tb:w-[80%] h-[110vh] lm:w-[100%] lm:h-[65vh]'>
+         <motion.div className='w-[50%] tb:w-[80%] h-[110vh] lm:w-[100%] lm:h-[62vh]'>
            <Earth/>
            </motion.div>
 

@@ -8,8 +8,9 @@ import Logo from "../assests/logo.png"
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { Link, NavLink } from 'react-router-dom';
-
-
+import TextAnimation from './TextAnimation'
+import Front from '../assests/Frontend Developer_prev_ui.png' 
+import ReactCurvedText from 'react-curved-text';
 
 export default function Hero() {
   const [vis,setVis] = useState("hidden")
@@ -68,7 +69,7 @@ export default function Hero() {
       </div>
      </div>
 
-     <div className="w-[60%] h-[550px] tb:-my-[70vw] lm:-my-[62vw] lm:w-[120%] lm:-mx-[18vw] lm:h-[370px] mx-[15vw] -my-[27vw] flex items-center justify-center">
+     <div className="w-[60%] h-[550px] tb:-my-[70vw] lm:-my-[78vw] lm:w-[120%] lm:-mx-[18vw] lm:h-[370px] mx-[15vw] -my-[27vw] flex items-center justify-center">
     <Computer/>
     </div>
     </div>
@@ -89,7 +90,21 @@ export default function Hero() {
         <FaSquareGithub className='w-14 h-9 cursor-pointer' onClick={()=>window.open("https://github.com/amangupta100")}/>
      </div>
     </div>
-
+     
+   <div className="w-60 h-60 fixed z-[40] bottom-1 left-1 flex items-center justify-center">
+   <svg className='w-[10vmax] z-[40] lm:w-[20vmax] animate-spin-slow fixed bottom-6 left-8 overflow-visible' fill='#ffffff' viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path id="circlePath" fill="none" className='duration-200' stroke-width="4"  d="
+          M 10, 50
+          a 40,40 0 1,1 80,0
+          a 40,40 0 1,1 -80,0
+        " />
+    <text id="text" font-family="monospace" className='text-white' font-color="white" font-size="12.3" font-weight="semi-bold" fill="var(--text-1)">
+      <textPath id="textPath" href="#circlePath" className='text-white'>Frontend Developer . Backend Developer .</textPath>
+    </text>
+  </svg>
+  <button onClick={()=>window.location.href("https://flowcv.com/resume/k134df70lq")} className='cursor-pointer w-20 h-20 text-black bg-white lm:w-16 lm:h-16 hover:text-white hover:bg-black duration-500 rounded-full absolute lm:bottom-[50px] lm:left-[59px] bottom-[60px] left-[68px]'>Hire Me</button>
+   </div>
+  
     </div>
   )
 }

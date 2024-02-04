@@ -13,7 +13,7 @@ export default function Skills() {
         });
       }, []);
       const particlesLoaded = (container) => {
-        console.log(container);
+        
       };
       const options= useMemo(
         () => ({
@@ -119,7 +119,7 @@ export default function Skills() {
     
     
   return (
-    <div className='w-full h-[100vh] relative'>
+    <div className='w-full flex flex-col h-[90vh] px-[5vw] relative'>
      <div className="absolute  bottom-0 -z-10">
      <Particles
             id="tsparticles"
@@ -127,7 +127,18 @@ export default function Skills() {
             options={options}   style={{ position: "absolute"}}
           />
      </div>
-          hello
+          <div className="flex flex-col w-[60%]">
+          <h1 className='text-[1.6vw] text-white'>Skills</h1>
+          <h1 className='text-[4.7vw] font-bold bg-gradient-to-r from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text '>My Skills</h1>
+          <p className='text-[1.6vw] font-medium '>I like to take responsibility to craft aesthetic user experience using modern frontend architecture.</p>
+
+          <div className="flex flex-col my-[3vw]">
+            <h1 className='text-[1.4vw] '>Frontend Development</h1>
+            <div className="flex gap-2">
+           
+            </div>
+          </div>
+          </div>
     </div>
   )
 }

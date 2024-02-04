@@ -40,3 +40,6 @@
         grid-template-columns: auto;gap: 25px;justify-content: center;
     }
 }
+path{
+    background-color: white;
+}
