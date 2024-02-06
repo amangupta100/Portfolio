@@ -18,7 +18,7 @@ export default function About() {
     easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
   }
   return (
-    <div className='bg-[rgb(5,8,22)] overflow-x-hidden lm:min-h-[275vh] w-full min-h-[125vh] tb:min-h-[160vh] flex items-center justify-center'>
+    <div className='bg-[rgb(5,8,22)] overflow-x-hidden lm:min-h-[250vh] w-full min-h-[125vh] tb:min-h-[160vh] flex items-center justify-center' id='About'>
       <div className="w-[95%] h-[100vh] lm:h-[155vh] flex flex-col justify-center gap-20">
         <div className="flex flex-col w-[75%] tb:w-[90%] lm:w-[100vw] px-[15vh] tb:px-[6vh] lm:py-[5vw] lm:px-[5vw]">
         <h1 className='text-xl text-gray-400 font-medium'>INTRODUCTION</h1>

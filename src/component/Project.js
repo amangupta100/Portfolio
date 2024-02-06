@@ -6,11 +6,16 @@ import { Tilt } from 'react-tilt'
 import github from '../assests/github-3b4e1609 (1).png'
 import see from '../assests/see.png'
 import './styles/HomePage.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function Project() {
   const defaultOptions = {
-    reverse:        false,  // reverse the tilt direction
-    max:            10,     // max tilt rotation (degrees)
+    reverse:        true,  // reverse the tilt direction
+    max:            20,     // max tilt rotation (degrees)
     perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
     scale:1,
     speed:          1000,   // Speed of the enter/exit transition
@@ -45,13 +50,14 @@ export default function Project() {
   }
   return (
     <div className='bg-[rgb(5,8,22)] flex items-center relative justify-center w-full min-h-[100vh] overflow-x-hidden'>
-      <div className="w-[95%] min-h-[98vh] flex flex-col px-[8vw] py-[15vh] p_maincont">
-        <h1 className='text-[1.7vw] font-normal text-gray-400 lm:text-[4vw] '>My Work</h1>
-        <h1 className='text-[5vw] font-extrabold lm:text-[7vw] '>Projects.</h1>
+      <div className="w-[100%] min-h-[98vh] flex flex-col  px-[8vw] py-[15vh] lm:px-[3vw]">
+        <h1 className='text-[1.7vw] font-normal text-gray-400 lm:text-[4.8vw] lm:mx-[20px]'>My Work</h1>
+        <h1 className='text-[5vw] font-extrabold lm:text-[8vw] lm:mx-[20px] '>Projects.</h1>
         
-        <div className="my-8 relative p_cont">
-          <Tilt options={defaultOptions} >
-          <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] tb:h-[65vh]  relative flex flex-col gap-3 bg-[rgb(21,16,48)] rounded-2xl p-[1.3vw] ">
+        <div className="my-8 relative grid grid-cols-3 lm:grid-cols-1 gap-4 lm:mx-[10px]">
+        
+      <Tilt options={defaultOptions}>
+      <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] tb:h-[65vh]  relative flex flex-col gap-3 bg-[rgb(21,16,48)] rounded-2xl p-[1.3vw] ">
             <img src={pr1} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[35vh] rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>Cara</h1>
             <p className='text-[1vw] text-gray-300 tb:text-[1.8vw] lm:text-[4vw] '>Cara, our avant-garde ecommerce platform, is a captivating destination where style meets convenience and website include animation and much more interactive effects</p>
@@ -65,10 +71,10 @@ export default function Project() {
             </div>
             
           </div>
-          </Tilt>
+      </Tilt>
 
-          <Tilt options={defaultOptions} >
-          <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative tb:h-[65vh] bg-[rgb(21,16,48)] flex flex-col gap-3 rounded-2xl p-[1.3vw] ">
+      <Tilt options={defaultOptions}>
+      <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative tb:h-[65vh] bg-[rgb(21,16,48)] flex flex-col gap-3 rounded-2xl p-[1.3vw] ">
           <img src={pr2} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[33vh] rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>iPhone-Landing Page</h1>
             <p className='text-[1vw] text-gray-300 tb:text-[1.8vw] lm:text-[4vw] '>Created a iphone 13 pro landing page with phone 3d model and nice scroll-based animations. This website is responsive as well.</p>
@@ -80,9 +86,9 @@ export default function Project() {
             <img src={see} className='w-6 h-6' alt="" />
             </div>
           </div>
-          </Tilt>
+      </Tilt>
 
-          <Tilt options={defaultOptions} >
+          <Tilt options={defaultOptions}>
           <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative  tb:h-[65vh] bg-[rgb(21,16,48)]  rounded-2xl p-[1.3vw] flex flex-col gap-3">
           <img src={pr3} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[35vh]  rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>Xypo</h1>
@@ -96,6 +102,7 @@ export default function Project() {
             </div>
           </div>
           </Tilt>
+        
         </div>
          <button className='bg-[rgb(21,16,48)] translate-x-[35vw] lm:w-[40vw] lm:translate-x-[20vw] lm:my-[10vw] w-[12vw] h-[10vh] tb:w-[20vw] my-[3vw] text-xl p-[1vw] font-medium' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</button>
       </div>

@@ -119,7 +119,7 @@ export default function Skills() {
     
     
   return (
-    <div className='w-full flex flex-col h-[110vh] px-[5vw] relative'>
+    <div className='w-full flex flex-col h-[110vh] px-[5vw] relative' id='Skills'>
      <div className="absolute  bottom-0 -z-10">
      <Particles
             id="tsparticles"

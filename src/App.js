@@ -1,13 +1,19 @@
 import './App.css';
-import Combined from './Combined';
-import Navbar from './component/Navbar';
+import Hero from './component/Hero';
+import About from './component/About';
+import ContactCombo from './component/ContactCombo';
+import Skills from './component/Skills';
+import ProjectCombo from './component/ProjectCombo';
 
 function App() {
   
   return (
     <div>
-     <Navbar/>
-    <Combined/>
+    <Hero/>
+    <About/>
+    <Skills/>
+    <ProjectCombo/>
+    <ContactCombo/>
     </div>
   );
 }
