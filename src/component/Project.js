@@ -57,7 +57,7 @@ export default function Project() {
         <div className="my-8 relative grid grid-cols-3 lm:grid-cols-1 gap-4 lm:mx-[10px]">
         
       <Tilt options={defaultOptions}>
-      <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] tb:h-[65vh]  relative flex flex-col gap-3 bg-[rgb(21,16,48)] rounded-2xl p-[1.3vw] ">
+      <div className="w-[26vw] h-[63vh] tb:w-[38vw]  lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] tb:h-[65vh]  relative flex flex-col gap-3 bg-[rgb(21,16,48)] rounded-2xl p-[1.3vw] ">
             <img src={pr1} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[35vh] rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>Cara</h1>
             <p className='text-[1vw] text-gray-300 tb:text-[1.8vw] lm:text-[4vw] '>Cara, our avant-garde ecommerce platform, is a captivating destination where style meets convenience and website include animation and much more interactive effects</p>
