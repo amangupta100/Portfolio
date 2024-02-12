@@ -119,7 +119,7 @@ export default function Skills() {
     
     
   return (
-    <div className='w-full flex flex-col h-[110vh] px-[5vw] relative' id='Skills'>
+    <div className='w-full flex flex-col h-[100vh] px-[5vw] relative' id='Skills'>
      <div className="absolute  bottom-0 -z-10">
      <Particles
             id="tsparticles"
@@ -129,7 +129,7 @@ export default function Skills() {
      </div>
           <div className="flex flex-col w-[60%] lm:w-[100%]">
           <h1 className='text-[1.6vw] text-white lm:text-[6vw] '>Skills</h1>
-          <h1 className='text-[4.7vw] font-bold lm:text-[9vw] bg-gradient-to-r   from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text '>My Skills</h1>
+          <h1 className='text-[4.7vw] font-bold lm:text-[8vw] bg-gradient-to-r   from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text '>My Skills</h1>
           <p className='text-[1.6vw] font-medium lm:text-[5vw] lm:font-normal'>I like to take responsibility to craft aesthetic user experience using modern frontend architecture.</p>
 
           <div className="flex flex-col gap-10 my-[3vw]">

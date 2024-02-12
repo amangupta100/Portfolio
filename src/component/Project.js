@@ -51,8 +51,8 @@ export default function Project() {
   return (
     <div className='bg-[rgb(5,8,22)] flex items-center relative justify-center w-full min-h-[100vh] overflow-x-hidden'>
       <div className="w-[100%] min-h-[98vh] flex flex-col  px-[8vw] py-[15vh] lm:px-[3vw]">
-        <h1 className='text-[1.7vw] font-normal text-gray-400 lm:text-[4.8vw] lm:mx-[20px]'>My Work</h1>
-        <h1 className='text-[5vw] font-extrabold lm:text-[8vw] lm:mx-[20px] '>Projects.</h1>
+      <h1 className='text-[1.7vw] font-normal text-gray-400 lm:text-[4.8vw] lm:mx-[20px]'>My Work</h1>
+        <h1 className='text-[5vw] font-extrabold lm:text-[8vw] lm:mx-[20px] bg-gradient-to-r   from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text  '>Projects.</h1>
         
         <div className="my-8 relative grid grid-cols-3 lm:grid-cols-1 gap-4 lm:mx-[10px]">
         
@@ -104,7 +104,7 @@ export default function Project() {
           </Tilt>
         
         </div>
-         <button className='bg-[rgb(21,16,48)] translate-x-[35vw] lm:w-[40vw] lm:translate-x-[20vw] lm:my-[10vw] w-[12vw] h-[10vh] tb:w-[20vw] my-[3vw] text-xl p-[1vw] font-medium' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</button>
+         <button className='bg-[rgb(21,16,48)] mx-[25vw] lm:w-[40vw]  lm:my-[10vw] w-[12vw] h-[10vh] tb:w-[20vw] my-[3vw] text-xl p-[1vw] font-medium' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</button>
       </div>
     </div>
   )

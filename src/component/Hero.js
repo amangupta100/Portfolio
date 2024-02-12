@@ -94,7 +94,7 @@ console.log(name)
       <motion.div animate={{y:[0,17,0]}} transition={{duration:1.5,repeat:Infinity,repeatType:"mirror"}} className="w-[7px] h-[12px] rounded-full bg-slate-400"></motion.div>
     </div>
  
-    <div className="flex flex-col items-center justify-center opacity-0 z-50 lm:opacity-[1] fixed lm:visible backdrop-blur-[10px] top-[65px] right-0 w-[100%] h-[100%]" style={{visibility:vis?"hidden":"visible"}}>
+    <div className="flex flex-col items-center justify-center opacity-0 lm:z-[100000] lm:opacity-[1] fixed lm:visible backdrop-blur-[10px] top-[65px] right-0 w-[100%] h-[100%]" style={{visibility:vis?"hidden":"visible"}}>
      <NavLink className='text-[5.7vw]'>About</NavLink>
      <NavLink className='text-[5.7vw] '>Skills</NavLink>
      <NavLink className='text-[5.7vw] '>Project</NavLink>
@@ -128,7 +128,7 @@ console.log(name)
       <textPath id="textPath" href="#circlePath" className='text-white'>Frontend Developer . Backend Developer .</textPath>
     </text>
   </svg>
-  <a href='' download="  let navigate = useNavigate(); " target='_blank' className='cursor-pointer w-[84px] h-[84px] flex items-center justify-center text-black bg-white hover:bg-black hover:text-white lm:w-[68px] lm:h-[68px] duration-500 rounded-full absolute z-[999] lm:bottom-[55px] lm:left-[47px] bottom-[64px] left-[73px]'>Hire Me</a>
+  <a href='' download="  let navigate = useNavigate(); " target='_blank' className='cursor-pointer w-[84px] h-[84px] flex items-center justify-center text-black bg-white hover:bg-black hover:text-white lm:w-[62px] lm:h-[68px] duration-500 rounded-full absolute z-[999] lm:bottom-[55px] lm:left-[47px] bottom-[64px] left-[73px]'>Hire Me</a>
    </div>
   
     </div>
