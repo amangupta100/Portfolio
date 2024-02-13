@@ -57,7 +57,7 @@ export default function Project() {
         <div className="my-8 relative grid grid-cols-3 lm:grid-cols-1 gap-4 lm:mx-[10px]">
         
       <Tilt options={defaultOptions}>
-      <div className="w-[26vw] h-[63vh] tb:w-[38vw]  lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] tb:h-[65vh]  relative flex flex-col gap-3 bg-[rgb(21,16,48)] rounded-2xl p-[1.3vw] ">
+      <div className="w-[26vw] h-[63vh] tb:w-[38vw]  lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] tb:h-[65vh]  relative flex flex-col gap-3 bg-gradient-to-b from-[rgb(5,8,22)] to-[rgb(32,39,70)] rounded-2xl p-[1.3vw] ">
             <img src={pr1} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[35vh] rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>Cara</h1>
             <p className='text-[1vw] text-gray-300 tb:text-[1.8vw] lm:text-[4vw] '>Cara, our avant-garde ecommerce platform, is a captivating destination where style meets convenience and website include animation and much more interactive effects</p>
@@ -74,7 +74,7 @@ export default function Project() {
       </Tilt>
 
       <Tilt options={defaultOptions}>
-      <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative tb:h-[65vh] bg-[rgb(21,16,48)] flex flex-col gap-3 rounded-2xl p-[1.3vw] ">
+      <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative tb:h-[65vh] bg-gradient-to-b from-[rgb(5,8,22)] to-[rgb(32,39,70)] flex flex-col gap-3 rounded-2xl p-[1.3vw] ">
           <img src={pr2} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[33vh] rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>iPhone-Landing Page</h1>
             <p className='text-[1vw] text-gray-300 tb:text-[1.8vw] lm:text-[4vw] '>Created a iphone 13 pro landing page with phone 3d model and nice scroll-based animations. This website is responsive as well.</p>
@@ -89,7 +89,7 @@ export default function Project() {
       </Tilt>
 
           <Tilt options={defaultOptions}>
-          <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative  tb:h-[65vh] bg-[rgb(21,16,48)]  rounded-2xl p-[1.3vw] flex flex-col gap-3">
+          <div className="w-[26vw] h-[63vh] tb:w-[38vw] lm:w-[90vw] lm:px-[2vw] lm:h-[70vh] relative  tb:h-[65vh] bg-gradient-to-b from-[rgb(5,8,22)] to-[rgb(32,39,70)]  rounded-2xl p-[1.3vw] flex flex-col gap-3">
           <img src={pr3} className='w-[25vw] h-[30vh] lm:h-[34vh] lm:w-[86vw] tb:w-[35vw] tb:h-[35vh]  rounded-2xl'  alt="" />
             <h1 className='text-2xl font-bold'>Xypo</h1>
             <p className='text-[1vw] text-gray-300 tb:text-[1.8vw] lm:text-[4vw]'>Xypo is a educational website that allows users to upload study materials and much more thing .</p>
@@ -104,7 +104,7 @@ export default function Project() {
           </Tilt>
         
         </div>
-         <button className='bg-[rgb(21,16,48)] mx-[25vw] lm:w-[40vw]  lm:my-[10vw] w-[12vw] h-[10vh] tb:w-[20vw] my-[3vw] text-xl p-[1vw] font-medium' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</button>
+         <button className='bg-[rgb(21,16,48)] mx-[35vw] lm:mx-[25vw] lm:w-[40vw]  lm:my-[10vw] w-[12vw] h-[10vh] tb:w-[20vw] my-[3vw] text-xl p-[1vw] font-medium' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</button>
       </div>
     </div>
   )

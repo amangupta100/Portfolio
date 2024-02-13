@@ -18,6 +18,7 @@ module.exports = {
       },
       animation:{
         'spin-slow':'spin 8s linear infinite',
+        'hover-spin':'spin 10s linear infinite'
       }
     }
   },

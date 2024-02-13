@@ -10,7 +10,7 @@ export default function Contact() {
     <div className='w-full min-h-[110vh] tb:min-h-[230vh] lm:min-h-[150vh] flex justify-center'>
         <div className="flex w-[90%] min-h-[108vh] tb:min-h-[155vh] lm:min-h-[150vh] -gap-5 tb:flex-col-reverse tb:items-center">
          
-        <div className="flex flex-col w-[45%] min-h-[100vh] tb:w-[90%] lm:w-[95%] rounded-lg bg-[rgb(16,13,37)] px-[5vw] py-[4vw] mx-[2vw] ">
+        <div className="flex flex-col w-[45%] min-h-[90vh] tb:w-[90%] lm:w-[95%] rounded-lg bg-gradient-to-tr from-[rgb(5,8,22)] to-[rgb(32,39,70)] px-[5vw] py-[4vw] mx-[2vw] ">
          <h1 className='uppercase text-gray-400 text-[1.4vw] tb:text-[2vw] font-medium lm:text-[4vw] '>Get in touch</h1>
          <h1 className='text-[5vw] font-bold tb:text-[6.5vw] lm:text-[8vw] '>Contact.</h1>
          
@@ -28,7 +28,7 @@ export default function Contact() {
           <button className='bg-[rgb(21,16,48)] my-[2vw] lm:w-[25vw] w-[8vw] h-[10vh] tb:w-[12vw] rounded-lg lm:my-[5vw] p-[1vw] text-xl font-medium'>Send</button>
          </div>
 
-         <motion.div className='w-[50%] tb:w-[80%] h-[110vh] lm:w-[100%] lm:h-[62vh]'>
+         <motion.div className='w-[50%] cursor-grab tb:w-[80%] h-[110vh] lm:w-[100%] lm:h-[62vh]'>
            <Earth/>
            </motion.div>
 

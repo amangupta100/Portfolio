@@ -17,7 +17,7 @@ export default function Hero() {
 console.log(name)
   }
   return (
-    <div className='cont flex flex-col lm:h-[110vh] w-full' style={{
+    <div className='cont flex flex-col lm:h-[105vh] w-full' style={{
         backgroundImage:`url(${bg})`,backgroundPosition:"center",backgroundSize:"cover" }} id='Home'>
 
 <div className="w-full h-[76px] flex fixed px-[6vw] tb:h-[70px] lm:h-[65px] z-[99999] justify-between items-center bg-transparent backdrop-blur-[4px] ">
@@ -99,7 +99,7 @@ console.log(name)
      <NavLink className='text-[5.7vw] '>Skills</NavLink>
      <NavLink className='text-[5.7vw] '>Project</NavLink>
      <NavLink className='text-[5.7vw] '>Contact</NavLink>
-     <div className="flex items-center z-[999] gap-4 translate-y-[350%] ">
+     <div className="flex items-center z-[999] gap-4 translate-y-[360%] ">
      <svg onClick={()=>window.open("https://www.linkedin.com/in/aman-gupta-721953250/","_blank")} width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path class="fill" d="M20 0C8.95599 0 0 8.95599 0 20C0 31.044 8.95599 40 20 40C31.044 40 40 31.044 40 20C40 8.95599 31.044 0 20 0ZM14.1882 30.2344H9.31732V15.5801H14.1882V30.2344ZM11.7529 13.5791H11.7212C10.0867 13.5791 9.02954 12.4539 9.02954 11.0477C9.02954 9.60968 10.119 8.51562 11.7853 8.51562C13.4515 8.51562 14.4769 9.60968 14.5087 11.0477C14.5087 12.4539 13.4515 13.5791 11.7529 13.5791ZM31.7517 30.2344H26.8814V22.3947C26.8814 20.4245 26.1761 19.0808 24.4138 19.0808C23.0682 19.0808 22.2668 19.9872 21.9147 20.8621C21.7859 21.1752 21.7545 21.6129 21.7545 22.0508V30.2344H16.8839C16.8839 30.2344 16.9476 16.955 16.8839 15.5801H21.7545V17.655C22.4017 16.6565 23.5599 15.2362 26.1441 15.2362C29.3488 15.2362 31.7517 17.3306 31.7517 21.8317V30.2344Z" fill="royalblue"/>
 </svg>
@@ -128,7 +128,7 @@ console.log(name)
       <textPath id="textPath" href="#circlePath" className='text-white'>Frontend Developer . Backend Developer .</textPath>
     </text>
   </svg>
-  <a href='' download="  let navigate = useNavigate(); " target='_blank' className='cursor-pointer w-[84px] h-[84px] flex items-center justify-center text-black bg-white hover:bg-black hover:text-white lm:w-[62px] lm:h-[68px] duration-500 rounded-full absolute z-[999] lm:bottom-[55px] lm:left-[47px] bottom-[64px] left-[73px]'>Hire Me</a>
+  <a href='' download="  let navigate = useNavigate(); " target='_blank' className='cursor-pointer w-[84px] h-[84px] flex items-center justify-center text-black bg-white hover:bg-black hover:text-white lm:w-[62px] lm:h-[60px] duration-500 rounded-full absolute z-[999] lm:bottom-[55px] lm:left-[55px] bottom-[64px] left-[73px]'>Hire Me</a>
    </div>
   
     </div>
