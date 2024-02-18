@@ -5,10 +5,10 @@ import StarsCanvas from './styles/Stars'
 export default function ContactCombo() {
   return (
     <div>
-       <div className="relative z-0" id='Contact'>
+       <div className="relative z-0 bg-white" id='Contact'>
       <Contact/>
      <StarsCanvas/>
-     </div>
+      </div>
     </div>
   )
 }

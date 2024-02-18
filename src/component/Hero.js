@@ -83,7 +83,7 @@ console.log(name)
       </div>
      </div>
 
-     <div className="w-[60%] h-[550px] tb:-my-[70vw] lm:-my-[78vw] lm:w-[120%] lm:-mx-[20vw] lm:h-[370px] mx-[15vw] -my-[27vw] flex items-center justify-center">
+     <div className="w-[60%] h-[550px] tb:-my-[70vw] lm:-my-[65vw] lm:w-[120%] lm:-mx-[20vw] lm:h-[370px] mx-[15vw] -my-[27vw] flex items-center justify-center">
     <Computer/>
     </div>
     </div>
@@ -94,7 +94,7 @@ console.log(name)
       <motion.div animate={{y:[0,17,0]}} transition={{duration:1.5,repeat:Infinity,repeatType:"mirror"}} className="w-[7px] h-[12px] rounded-full bg-slate-400"></motion.div>
     </div>
  
-    <div className="flex flex-col items-center justify-center opacity-0 lm:z-[100000] lm:opacity-[1] fixed lm:visible backdrop-blur-[10px] top-[65px] right-0 w-[100%] h-[100%]" style={{visibility:vis?"hidden":"visible"}}>
+    <div className="flex flex-col items-center justify-center opacity-0 lm:z-[9999] lm:opacity-[1] fixed lm:visible backdrop-blur-[10px] top-[65px] right-0 w-[100%] h-[100%]" style={{visibility:vis?"hidden":"visible"}}>
      <NavLink className='text-[5.7vw]'>About</NavLink>
      <NavLink className='text-[5.7vw] '>Skills</NavLink>
      <NavLink className='text-[5.7vw] '>Project</NavLink>
@@ -117,14 +117,14 @@ console.log(name)
      </div>
     </div>
      
-   <div className="w-60 h-60 absolute z-[40] bottom-1 left-1 flex items-center justify-center">
-   <svg className='w-[10.6vmax] z-[40] lm:w-[18vmax] animate-spin-slow absolute bottom-6 left-8 overflow-visible' fill='#ffffff' viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+   <div className="w-60 h-60 absolute z-[40] bottom-1 left-1 flex items-center justify-center lm:hidden">
+   <svg className='w-[10.4vmax] z-[40] lm:w-[18vmax] animate-spin-slow absolute bottom-6 left-8 overflow-visible' fill='#ffffff' viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
     <path id="circlePath" fill="none" className='duration-200' strokeWidth="4"  d="
           M 10, 50
           a 40,40 0 1,1 80,0
           a 40,40 0 1,1 -80,0
         " />
-    <text id="text" fontFamily="monospace" className='text-white' font-color="white" fontSize="12.0" font-weight="semi-bold" fill="var(--text-1)">
+    <text id="text" fontFamily="monospace" className='text-white' font-color="white" fontSize="12.5" font-weight="semi-bold" fill="var(--text-1)">
       <textPath id="textPath" href="#circlePath" className='text-white'>Frontend Developer . Backend Developer .</textPath>
     </text>
   </svg>

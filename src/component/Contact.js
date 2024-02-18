@@ -7,12 +7,12 @@ export default function Contact() {
   const [email,setEmail] = useState("")
   const [subject,setSubject] = useState("")
   return (
-    <div className='w-full min-h-[110vh] tb:min-h-[230vh] lm:min-h-[150vh] flex justify-center'>
+    <div className='w-full min-h-[115vh] tb:min-h-[230vh] lm:min-h-[150vh] flex justify-center'>
         <div className="flex w-[90%] min-h-[108vh] tb:min-h-[155vh] lm:min-h-[150vh] -gap-5 tb:flex-col-reverse tb:items-center">
          
         <div className="flex flex-col w-[45%] min-h-[90vh] tb:w-[90%] lm:w-[95%] rounded-lg bg-gradient-to-tr from-[rgb(5,8,22)] to-[rgb(32,39,70)] px-[5vw] py-[4vw] mx-[2vw] ">
          <h1 className='uppercase text-gray-400 text-[1.4vw] tb:text-[2vw] font-medium lm:text-[4vw] '>Get in touch</h1>
-         <h1 className='text-[5vw] font-bold tb:text-[6.5vw] lm:text-[8vw] '>Contact.</h1>
+         <h1 className='text-[5vw] font-bold tb:text-[6.5vw] lm:text-[8vw] bg-gradient-to-r   from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text  '>Contact.</h1>
          
           <div className="flex flex-col gap-4">
           <label htmlFor="" className='font-normal text-[1.3vw] tb:text-[1.9vw] lm:text-[4vw] '>Your Name*</label>
@@ -31,7 +31,6 @@ export default function Contact() {
          <motion.div className='w-[50%] cursor-grab tb:w-[80%] h-[110vh] lm:w-[100%] lm:h-[62vh]'>
            <Earth/>
            </motion.div>
-
         </div>
     </div>
   )
