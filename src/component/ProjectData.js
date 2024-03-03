@@ -1,6 +1,5 @@
 import pr1 from '../assests/Screenshot (9).png'
 import pr2 from '../assests/Screenshot (8).png'
-import pr3 from '../assests/Screenshot (10).png'
 import pr4 from '../assests/Screenshot (29).png'
 
 
@@ -20,10 +19,11 @@ const data = [
         hashTag:"#frontend #react #3dmodel #react-three-fiber",
     },
     {
-        id:"3",
-        url:pr3,
-        name:"Xypo",
-        description:"Xypo is a educational website that allows users to upload study materials and much more thing .",
+        id:"4",
+        url:pr4,
+        name:"Duo Studio",
+        description:"Website for building website interactive",
+        hashTag:"#frontend #javascript #developer",
     },
     {
         id:"4",

@@ -24,16 +24,16 @@ console.log(name)
           <div className="flex items-center gap-5">
        <div className="flex items-center gap-3">
        <img src={Logo} className='w-10 h-10 rounded-full tb:w-11 tb:h-11' alt="bvv" />
-        <Link to="Home"  className=' text-[1.7vw]  font-normal tb:text-[2.5vw] lm:text-[4vw] cursor-pointer'>Aman Gupta</Link>
+        <Link to="Home"  className=' text-[1.5vw] font-bold tb:text-[2.5vw] lm:text-[4vw] cursor-pointer'>Aman Gupta</Link>
        </div>
       
        
       </div>
-      <div className="flex gap-8 lm:hidden">
-        <Link to='About'     className=" relative cursor-pointer text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">About</Link>
-        <Link to='Skills'   className=" relative cursor-pointer text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">Skills</Link>
-        <Link to='Project' className=" relative cursor-pointer text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">Project</Link>
-        <Link to='Contact' className=" relative text-xl w-fit cursor-pointer block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">Contact</Link>
+      <div className="flex gap-8 lm:hidden" >
+      <Link to='About'     className=" relative cursor-pointer text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">About</Link>
+        <Link to='Skills'   className=" relative cursor-pointer text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">Skills</Link>
+        <Link to='Project' className=" relative cursor-pointer text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">Project</Link>
+        <Link to='Contact' className=" relative text-xl w-fit cursor-pointer block after:block after:content-[''] after:absolute after:h-[3px] after:bg-slate-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right">Contact</Link>
       </div>
        {
         vis?<div className="hidden lm:inline-block duration-500" onClick={()=>showMenu()}>
@@ -124,7 +124,7 @@ console.log(name)
           a 40,40 0 1,1 80,0
           a 40,40 0 1,1 -80,0
         " />
-    <text id="text" fontFamily="monospace" className='text-white' font-color="white" fontSize="12.5" font-weight="semi-bold" fill="var(--text-1)">
+    <text id="text" fontFamily="monospace" className='text-white' font-color="white" fontSize="12.0" font-weight="semi-bold" fill="var(--text-1)">
       <textPath id="textPath" href="#circlePath" className='text-white'>Frontend Developer . Backend Developer .</textPath>
     </text>
   </svg>
