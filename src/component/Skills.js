@@ -3,17 +3,17 @@ import {motion} from 'framer-motion'
 
 export default function Skills() {
   return (
-    <div className='w-full  flex flex-col h-[100vh] px-[5vw] relative bg-[rgb(5,8,22)]' id='Skills'>
+    <div className='w-full  flex flex-col h-[100vh] px-[5vw] relative bg-white' id='Skills'>
 
           <div className="flex flex-col w-[60%] lm:w-[100%]" id='parent'>
-          <h1 className='text-[1.6vw] text-white lm:text-[6vw] '>Skills</h1>
-          <h1 className='text-[4.7vw] font-bold lm:text-[8vw] bg-gradient-to-r   from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text '>My Skills</h1>
-          <p className='text-[1.6vw] font-medium lm:text-[5vw] lm:font-normal'>I like to take responsibility to craft aesthetic user experience using modern frontend architecture.</p>
+          <h1 className='text-[1.6vw] text-gray-400 lm:text-[6vw] '>Skills</h1>
+          <h1 className='text-[4.7vw] font-bold lm:text-[10vw] bg-gradient-to-br   to-[rgb(253,80,80)] from-[#ffeb0c] inline-block text-transparent bg-clip-text '>My Skills</h1>
+          <p className='text-[1.6vw] text-black font-medium lm:text-[5vw] lm:font-normal'>I like to take responsibility to craft aesthetic user experience using modern frontend architecture.</p>
 
-          <div className="flex flex-col gap-10 my-[3vw]">
+          <div className="flex flex-col gap-5 my-[3vw]">
            
-            <div className="flex flex-col  gap-7 my-[25px]">
-            <h1 className='text-[1.4vw] lm:text-[5vw] '>Frontend Development</h1>
+            <div className="flex flex-col  gap-2 my-[25px]">
+            <h1 className='text-[1.4vw] font-medium lm:text-[5vw] text-black'>Frontend Development</h1>
            <div className="flex gap-7 lm:gap-3 lm:w-[70%] lm:grid lm:grid-cols-4">
            <svg width="56" height="56" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0)">
@@ -227,8 +227,8 @@ export default function Skills() {
 
             </div>
            
-            <div className="flex flex-col gap-7 my-[25px]">
-            <h1 className='text-[1.4vw] lm:text-[5vw] '>Other Skills</h1>
+            <div className="flex flex-col gap-2 my-[25px]">
+            <h1 className='text-[1.4vw] lm:text-[5vw]  text-black font-medium'>Other Skills</h1>
            <div className="flex gap-7">
            <svg width="56" height="56" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0)">

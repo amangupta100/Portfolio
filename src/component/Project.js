@@ -44,10 +44,10 @@ export default function Project() {
 
   }
   return (
-    <div className='bg-[rgb(5,8,22)] flex items-center relative justify-center w-full h-[150vh] lm:h-[300vh] overflow-x-hidden'>
-      <div className="w-[100%] min-h-[98vh] flex flex-col  px-[8vw] py-[15vh] lm:px-[3vw]">
+    <div className='bg-[rgb(5,8,22)] flex items-center relative justify-center w-full h-[150vh] lm:h-[300vh] overflow-x-hidden' id='Project'>
+      <div className="w-[100%] min-h-[98vh] flex flex-col  px-[8vw] py-[0vh] lm:px-[3vw]">
       <h1 className='text-[1.7vw] font-normal text-gray-400 lm:text-[4.8vw] lm:mx-[20px]'>My Work</h1>
-        <h1 className='text-[5vw] font-extrabold lm:text-[8vw] lm:mx-[20px] bg-gradient-to-r   from-[rgb(233,251,255)] to-[#2496B3] inline-block text-transparent bg-clip-text  '>Projects.</h1>
+        <h1 className='text-[5vw] font-extrabold lm:text-[8vw] lm:mx-[20px] bg-gradient-to-br to-[rgb(253,80,80)] from-[#ffeb0c] inline-block text-transparent bg-clip-text  '>Projects.</h1>
 
         <div className="my-8 relative grid grid-cols-3 lm:grid-cols-1 gap-4 lm:mx-[10px]">
 
@@ -99,7 +99,7 @@ export default function Project() {
           </Tilt>
 
         </div>
-         <a className='jsx-b3386ba24cce00ed text-[1.4vw] lm:text-[4.2vw] cursor-pointer translate-x-[80vh] lm:translate-x-[21vh] my-[3vw] w-fit  flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base border-orange-500 ring-orange-500' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</a>
+         <a className='jsx-b3386ba24cce00ed m-auto text-[1.4vw] lm:text-[4.2vw] cursor-pointer  my-[3vw] w-fit  flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base border-orange-500 ring-orange-500' onClick={()=>window.open("https://github.com/amangupta100")}>More Project</a>
       </div>
     </div>
   )
